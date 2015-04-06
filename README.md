@@ -7,7 +7,7 @@
   
 - run (init.sql 자동 실행)
   ```
-  docker run --name mysql-test -e MYSQL_ROOT_PASSWORD=mysql -e MYSQL_USER=dev -e MYSQL_PASSWORD=dev -e MYSQL_DATABASE=dev -p 3306:3306 -d mysql:latest
+  docker run --name mysql-test -e MYSQL_ROOT_PASSWORD=mysql -e MYSQL_USER=dev -e MYSQL_PASSWORD=dev -e MYSQL_DATABASE=dev -p 3306:3306 -d mysql-test:latest
   ```
 
 - sql 실행 (optional)
